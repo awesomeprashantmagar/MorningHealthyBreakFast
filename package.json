@@ -1,0 +1,22 @@
+{
+  "name": "project_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesomeprashantmagar/MorningHealthyBreakFast.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awesomeprashantmagar/MorningHealthyBreakFast/issues"
+  },
+  "homepage": "https://github.com/awesomeprashantmagar/MorningHealthyBreakFast#readme",
+  "dependencies": {
+    "unique-random-array": "^1.0.1"
+  }
+}
