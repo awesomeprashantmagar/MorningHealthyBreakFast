@@ -1,14 +1,16 @@
 {
-  "name": "project_MorningBreakFast",
-  "version": "1.1.0",
+  "name": "projectmorningbreakfast",
+  "version": "0.0.0-development",
   "description": "",
   "main": "Src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha Src/index.test.js -w",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awesomeprashantmagar/MorningHealthyBreakFast.git"
+    "url": "https://github.com/awesomeprashantmagar/MorningHealthyBreakFast.git"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +20,15 @@
   "homepage": "https://github.com/awesomeprashantmagar/MorningHealthyBreakFast#readme",
   "dependencies": {
     "unique-random-array": "^1.0.1"
-  }
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "mocha": "^5.2.0",
+    "semantic-release": "^15.9.8"
+  },
+  "czConfig" : {
+     "path" : "node_modules/cz-conventional-changelog" 
+   }
 }
